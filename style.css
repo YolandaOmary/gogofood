@@ -1,0 +1,124 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT';
+}
+.sidenav{
+    float:left;
+    background-color:rgb(176, 105, 23);
+    top:0px;
+    left:0px;
+    width:15%;
+    height:100%;
+    position: fixed;
+}
+.sidenav ul li{
+    display:block;
+    padding-top:13px;
+}
+.sidenav ul li a{
+    text-decoration: none;
+    color:white;
+}
+.sidenav ul li a:hover{
+    color:rgb(239, 172, 63);
+    font-size:20px;
+    transition: 0.7s;
+}
+.main{
+    float:left;
+    width:60%;
+    margin-left:16%;
+}
+.main .header{
+    padding:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    text-align:center;
+}
+.main .container{
+    border-top:3px solid rgb(176, 105, 23);
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    text-align:justify;
+}
+.main h2{
+    color: rgb(176, 105, 23);
+    text-align:center;
+    font-weight: 700;
+}
+.main .container img{
+    width:60%;
+    padding-right: 10px;
+    float:left;
+}
+.card{
+    flex-basis: calc(33.33% - 20px);
+    margin: 0 10px;
+    text-align: center;
+    border-top: 2px solid rgb(176, 105, 23);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.card img{
+    width:100%;
+    text-align:center;
+}
+.card h4{
+    color:#37373f;
+    text-transform: uppercase;
+}
+.card .price{
+    font-size: 20px;
+    color:rgb(176, 105, 23);
+    font-weight: 600;
+}
+.member img{
+    border-radius: 50%;
+    width:100%;
+    height:130px;
+    border: 3px solid rgb(176, 105, 23);
+}
+.member .detail{
+    width:17%;
+    float:left; 
+    padding:10px;
+    text-align: center;
+}
+.news{
+    width:22%;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    float:right;
+}
+.news img{
+    width:100%;
+    border-radius: 5px;
+}
+form a{
+    background-color:rgb(176, 105, 23);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    border-radius: 30px;
+    color:white;
+    padding:15px;
+    font-size:20px;
+}
+form a:hover{
+    background-color: rgb(172, 118, 57);
+    transition: 0.8s;
+}
+form input{
+    width:300px;
+    border:1.5px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    height:30px;
+}
+.footer{
+    width:153.4%;
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin-left: -15%;
+    background-color:rgb(176, 105, 23);
+}
